@@ -1,10 +1,11 @@
 import React from 'react'
+import Profile from './Navbar/Profile'
 
 function Main() {
     return (
         <div>
             {/*Componentes*/}
-            <h1>Estructura Inicial</h1>
+            <Profile />
         </div>
     )
 }
