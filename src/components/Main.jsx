@@ -1,10 +1,13 @@
 import React from 'react'
+//import Presentacion from '../components/Presentacion'
+//import Iniciar from './Iniciar'
+import Home from './Home'
 
 function Main() {
     return (
         <div>
-            {/*Componentes*/}
-            <h1>Estructura Inicial</h1>
+            <Home />
+            
         </div>
     )
 }
