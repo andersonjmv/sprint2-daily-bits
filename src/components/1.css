@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #16161a !important;
+    color: #fff;
+    font-family: "Nunito", sans-serif;
+  }
+  .cajita {
+    color: #d4caf3 !important;
+  }
+  header {
+    width: 100vw;
+    height: 8.75vh;
+  }
+  
+  .contenedor {
+    display: grid;
+    grid-template-columns: repeat(4, 16vw 66vw 8vw 8vw);
+  }
+  
+  .x-img {
+    color: white !important;
+  }
+  
+  .bar-img {
+    width: 60vw;
+  }
+  
+  /*Avatar & text*/
+  
+  .container {
+    height: 35.15vh;
+    display: grid;
+    grid-template-columns: 20.83vw 75vw;
+    
+  }
+  
+  .container img {
+    width: 16.83vw;
+    height: 24.84vh;
+    margin-left: 2.5vh;
+    margin-right: 2.5vh;
+    margin-top: 2.5vh;
+    margin-bottom: 7.81vh;
+  }
+    
+  
+  .p {
+      margin-left: 5.5vh;
+      margin-right: 2.5vh;
+      margin-top: 5.5vh;
+      margin-bottom: 4.81vh;
+   
+    font-size: 3.4vh;
+    font-weight: 700;
+    background: #16161a !important;
+   
+    width: 65vw;
+   
+  }
+  
+  
+  /*Contenedor questions*/
+  #questions {
+    color: #fff;
+  }
+  
+  
+  /*Contenedor options*/
+  
+  .options {
+    height: 30.75vh;
+    padding: 0.625vh 0.625vh 0.625vh 0.625vh;
+    background: #16161a !important;
+  }
+  
+  .options label {
+   
+    background: #232e35 !important;
+  }
+  
+  
+  label {
+    background: #232e35 !important;
+    border-radius: solid 0.625vw white;
+    margin-left: 2vh;
+    margin-top: 2vh;
+    padding-left: 4vw;
+    align-items: center;
+    display: flex !important;
+    flex-direction: row-reverse !important;
+    justify-content: space-between;
+  }
+  
+  #header, #main, #section {
+    display: flex;
+    background: #232e35 !important;
+    margin: 2.5vh 2.5vh 2.5vh 2.5vh;
+    height: 8.75vh;
+    font-size: 2.5vh;
+    background: #232e35 !important;
+    border: solid 0.59vw white;
+    border-radius: 0.625vw;
+    display: grid;
+    grid-template-columns: 90% 10%;
+  }
+  
+  
+  
+  
+  
+  input {
+    width: 3.7vh;
+    height: 3.7vh;
+    background: #232e35 !important;
+    margin-right: 2vh;
+    margin-top: 2vh;
+   margin-bottom: 2vh;
+  }
+  
+  input:checked {
+    background-image: url("../recursos/arrow-checked.png") !important;
+  }
+  
+  
+  
+  
+  
+  
+  footer {
+    width: 100vw;
+    height: 12.8vh;
+    font-weight: bold !important;
+    margin-top: 10vh;
+  }
+  
+  footer button {
+    padding: 2.5vh 2.5vh 2.5vh 2.5vh;
+    background: #d4caf3 !important;
+    border-radius: 2.5vh;
+    width: 92vw;
+    margin: 2.5vw 4vw 2.5vw 4vw;
+    font-weight: bold !important;
+  }
+  
+  footer button:hover {
+    background: #6b47dc !important;
+    font-weight: bold !important;
+  }

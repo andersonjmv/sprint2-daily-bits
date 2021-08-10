@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+* { background: #16161a !important;
+    color: #fff;
+    font-family: "Nunito", sans-serif;
+  }
+
+.button:hover {
+    background: #6b47dc !important;
+    font-weight: bold !important;
+}

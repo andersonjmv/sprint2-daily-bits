@@ -1,10 +1,13 @@
 import React from 'react'
+import Questions from './Questions.jsx'
 
 function Main() {
     return (
         <div>
             {/*Componentes*/}
-            <h1>Estructura Inicial</h1>
+            <Questions />
+           
+
         </div>
     )
 }
