@@ -2,19 +2,21 @@ import React from 'react'
 import Main from '../components/Main'
 import { createGlobalStyle } from 'styled-components';
 
-const GlobalStyle = createGlobalStyle`
-        font-family: 'Nunito';
+
+export const GlobalStyle = createGlobalStyle`
+    body {
+        background-color: black;
         margin: 0;
         padding: 0;
-        background: black;    
+    }
 `;
+
 
 function App() {
     return (
         <div>
-            <Main>
-                <GlobalStyle />
-            </Main>
+           <GlobalStyle />
+           <Main />
         </div>
     )
 }

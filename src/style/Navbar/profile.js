@@ -1,23 +1,21 @@
 import styled from 'styled-components'
 
-export const Title = styled.p`
-    color: white;
-    font-size: 24px;
-    position: relative;
-    top: 16px;
-    left: 16px;
+export const Title = styled.div`
+top: 16px;
+position: fixed;
+left: 7%;
+color: white;
 `;
 
-export const Perfil = styled.section`
-    text-align: center;
-
+export const Userimg = styled.img`
+margin-top: 100px;
 `;
 
-export const UserImg = styled.img`
-    margin-top: 80px;
+export const Informacion = styled.section`
+text-align:center;
+color: white;
 `;
 
-export const Name = styled.h2`
-    margin-top: 5px;
-    color:white;
+export const CloseSession = styled.h3`
+color:red;
 `;
