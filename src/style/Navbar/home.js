@@ -24,6 +24,6 @@ export const Img = styled.img`
 display: flex;
 flex-direction: column;
 margin: 8px;
-width: 90px;
+width: 70px;
 padding: 5px;
 `;

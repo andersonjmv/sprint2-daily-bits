@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-transform: translateY(120px);
+transform: translateY(110px);
 `;
 
 export const Bodies = styled.div`
@@ -41,7 +41,8 @@ left: 16px;
 top: 100px; 
 padding-left: 30px;
 bottom: 40px;
-margin: 15px;
+margin: 5px;
+padding: 5px;
 justify-content: space-between;
 color: white;
 `;

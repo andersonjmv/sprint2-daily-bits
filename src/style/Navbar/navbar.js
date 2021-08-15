@@ -4,9 +4,9 @@ import styled from 'styled-components'
 export const Menu = styled.header`
 display:flex;
 flex-direction: row; 
-justify-content:space-between;
+justify-content:space-around;
 width: 100%;
-height: 60px;
+height: 50px;
 bottom: 0px;
 padding-top: 15px;
 position: fixed;

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Categoria, Categorias, Header, Img } from '../../../style/Navbar/home';
 import Navbar from '../Navbar';
+import {Link} from 'react-router-dom';
 
 export const Home = () => {
     return (
@@ -10,9 +11,9 @@ export const Home = () => {
                     Practica tus conocimientos en la <br />categoria que prefieras.
                 </Header>
                 <Categorias>
-                    <Categoria href="#">
+                    <Categoria >
                         <div className="logo">
-                            <Img id="html" src="https://i.ibb.co/pRp9fXL/container.png" alt="" />
+                        <Link to="/html" ><Img id="html" src="https://i.ibb.co/pRp9fXL/container.png" alt="" /></Link>
                         </div>
                         HTML
                     </Categoria>
