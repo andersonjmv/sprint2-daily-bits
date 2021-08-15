@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Container, Header, Close, CloseImg, Bar, Porcent, Icon, IconImg, Vidas, VidasNumber, PreguntaH2, Option, Check, Radio, OpcionPregunta, DivImg, DivPre, ContainerRes, Footer, Button } from '../../style/Questions/preguntas1';
+import { Container, Header, Close, CloseImg, Bar, Porcent, Icon, IconImg, Vidas, VidasNumber, PreguntaH2, Option, Check, Radio, OpcionPregunta, DivImg, DivPre, ContainerRes, Footer} from '../../style/Questions/preguntas1';
 import axios from 'axios';
 
 const Preguntas1 = () => {
@@ -29,13 +29,13 @@ const Preguntas1 = () => {
         <Container>
             <Header>
                 <Close>
-                    <CloseImg src="https://i.ibb.co/t84qBTy/Component-2-4.png" alt="" />
+                    <CloseImg src="https://i.ibb.co/t84qBTy/Component-2-4.png" alt="close" />
                 </Close>
                 <Bar>
                     <Porcent />
                 </Bar>
                 <Icon>
-                    <IconImg src="https://i.ibb.co/hs3xGtg/Component-1-3.png" alt="" />
+                    <IconImg src="https://i.ibb.co/hs3xGtg/Component-1-3.png" alt="icon" />
                 </Icon>
                 <Vidas>
                     <VidasNumber>4</VidasNumber>
@@ -43,7 +43,7 @@ const Preguntas1 = () => {
             </Header>
             <div>
                 <DivImg>
-                    <img src="https://i.ibb.co/d4FvM39/caracters-1.png" />
+                    <img src="https://i.ibb.co/d4FvM39/caracters-1.png" alt="avatar"/>
                 </DivImg>
                 <DivPre>
                     <PreguntaH2>¿Qué etiqueta es semánticamente correcta para el contenido principal?</PreguntaH2>

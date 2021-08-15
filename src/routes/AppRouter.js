@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import {Login} from '../components/login/Login'
 import { Home } from '../components/navbar/menu/Home'
 import Profile from '../components/navbar/menu/Profile'
@@ -14,6 +14,7 @@ export const AppRouter = () => {
         <Router>
             <Switch>
                 <Route exact path="/" component={Welcome}/>
+                <Route exact path="/login" component={Login}/>
                 <Route path="/home" component={Home}/>
                 <Route path="/profile" component={Profile}/>
                 <Route path="/statistics" component={Statistics}/>

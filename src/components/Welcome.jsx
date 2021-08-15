@@ -4,8 +4,6 @@ import styled from "styled-components";
 import Image from "../assets/welcome.png";
 
 
-
-
 const ContainerW =styled.div`
   display: flex;
     justify-content: center;
@@ -27,19 +25,16 @@ const Img = styled.img`
 
 const BgWelcome = { backgroundColor: "#873DEC" };
 
-
-
-
-
 export const Welcome = () => {
 
     const history = useHistory();
 
     useEffect(() => {
         setTimeout(() => {
-            history.push("/home");
+            history.push('/login');
         }, 2000);
-    }, []);
+    },);
+    
   return (
    
       <ContainerW style={BgWelcome} >
