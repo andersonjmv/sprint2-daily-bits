@@ -21,13 +21,13 @@ export const Home = () => {
                 <Categorias>
                     <Categoria href="#">
                         <div className="logo">
-                            <Img id="css" src="https://i.ibb.co/dbVmkkM/container-1.png" alt="" />
+                        <Link to="/css" ><Img id="css" src="https://i.ibb.co/dbVmkkM/container-1.png" alt="" /></Link>
                         </div>
                         CSS
                     </Categoria>
                     <Categoria href="#">
                         <div className="logo">
-                            <Img id="js" src="https://i.ibb.co/dD9g0SW/container-2.png" alt="" />
+                        <Link to="/js"><Img id="js" src="https://i.ibb.co/dD9g0SW/container-2.png" alt="" /></Link>
                         </div>
                         JS
                     </Categoria>

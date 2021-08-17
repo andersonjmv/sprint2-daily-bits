@@ -2,13 +2,13 @@ import React, { useState, useEffect } from 'react'
 import { Container, Header, Close, CloseImg, Bar, Porcent, Icon, IconImg, Vidas, VidasNumber, PreguntaH2, Option, Check, Radio, OpcionPregunta, DivImg, DivPre, ContainerRes, Footer} from '../../style/Questions/preguntas1';
 import axios from 'axios';
 
-const Preguntas1 = () => {
+const Preguntas2 = () => {
 
     const [pregunta, setPregunta] = useState([]);
 
 
     const getQuestions = async () => {
-        const url = 'https://fake-api-daily.herokuapp.com/html';
+        const url = 'https://fake-api-daily.herokuapp.com/css';
         const res = await axios.get(url);
         const data = res.data;
         const random = data[Math.floor(Math.random() * data.length)];
@@ -25,8 +25,6 @@ const Preguntas1 = () => {
     useEffect(() => {
         getQuestions();
     }, [])
-
-
 
 
     return (
@@ -81,4 +79,4 @@ const Preguntas1 = () => {
     )
 }
 
-export default Preguntas1
+export default Preguntas2
